@@ -1,0 +1,16 @@
+{
+	"name": "newbie-low-code",
+	"description": "基于 Vue 3.0、Web Component、AI 等前沿技术实现的开源 H5 低代码平台。",
+	"scripts": {
+		"app:start": "cd app && pnpm start"
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-git"
+		}
+	},
+	"devDependencies": {
+		"cz-git": "^1.11.0"
+	},
+	"license": "ISC"
+}

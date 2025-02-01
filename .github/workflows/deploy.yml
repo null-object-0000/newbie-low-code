@@ -27,7 +27,7 @@ jobs:
 
     - name: Move app build output
       run: |
-        mkdir -p deploy-target
+        mkdir -p dist
         mv -v app/dist/* dist/
 
     - name: Deploy to gh-pages

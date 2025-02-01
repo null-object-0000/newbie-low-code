@@ -12,7 +12,7 @@
 
 ```sh
 pnpm install
-pnpm dev
+pnpm run app:start
 ```
 
 ## 技术框架

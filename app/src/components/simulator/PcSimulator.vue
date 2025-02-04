@@ -27,7 +27,6 @@ const editorStore = useEditorStore()
     .pc {
         width: 375px;
         height: calc(100vh - var(--layout-header-height) - var(--render-view-show-modes-height) - 80px);
-        max-height: 667px;
         border-radius: 10px 10px 0 0;
         box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
         background: rgb(245, 246, 247);

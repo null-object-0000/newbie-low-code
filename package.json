@@ -2,6 +2,8 @@
 	"name": "newbie-low-code",
 	"description": "基于 Vue 3.0、Web Component、AI 等前沿技术实现的开源 H5 低代码平台。",
 	"scripts": {
+		"start": "pnpm app:start",
+		"build": "pnpm app:build",
 		"app:start": "cd app && pnpm start",
 		"app:build": "cd app && pnpm build"
 	},
